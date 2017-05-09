@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80a8ef7f-9288-4b67-aaf3-ecbd0d971bc5" name="Default" comment="" />
+    <list default="true" id="80a8ef7f-9288-4b67-aaf3-ecbd0d971bc5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MySQLTool.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MySQLTool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,17 +20,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled$test.coverage" NAME="test Coverage Results" MODIFIED="1493198146091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$Measure.coverage" NAME="Measure Coverage Results" MODIFIED="1493174995323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$test.coverage" NAME="test Coverage Results" MODIFIED="1493970603299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$Measure.coverage" NAME="Measure Coverage Results" MODIFIED="1493783171655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
     <SUITE FILE_PATH="coverage/untitled$MySQLTool.coverage" NAME="MySQLTool Coverage Results" MODIFIED="1493086421552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
     <SUITE FILE_PATH="coverage/untitled$CCan.coverage" NAME="CCan Coverage Results" MODIFIED="1492756726431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$MeasureData.coverage" NAME="MeasureData Coverage Results" MODIFIED="1493194222474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$Master.coverage" NAME="Master Coverage Results" MODIFIED="1493196343275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$Master.coverage" NAME="Master Coverage Results" MODIFIED="1493973109879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$MeasureData.coverage" NAME="MeasureData Coverage Results" MODIFIED="1494204901345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
     <SUITE FILE_PATH="coverage/untitled$measure.coverage" NAME="measure Coverage Results" MODIFIED="1492495243237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
     <SUITE FILE_PATH="coverage/untitled$Reptile.coverage" NAME="Reptile Coverage Results" MODIFIED="1492481518907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$HttpTool.coverage" NAME="HttpTool Coverage Results" MODIFIED="1492566925386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
     <SUITE FILE_PATH="coverage/untitled$CKan.coverage" NAME="CKan Coverage Results" MODIFIED="1493283280316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
     <SUITE FILE_PATH="coverage/untitled$MakeCSV.coverage" NAME="MakeCSV Coverage Results" MODIFIED="1492671449313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$MeasureData__1_.coverage" NAME="MeasureData (1) Coverage Results" MODIFIED="1493969989217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn/back" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -37,11 +48,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MeasureData.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MeasureData.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1216">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="440">
+              <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="A010101.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/back/zb/A010101.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MeasureData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/back/MeasureData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1596">
+              <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -50,84 +83,8 @@
       <file leaf-file-name="Master.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-                <marker date="1493176529083" expanded="true" signature="1767:1861" ph="insert into MACRO_ZB_TREE_XX... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Measure.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="9" column="171" lean-forward="false" selection-start-line="9" selection-start-column="171" selection-end-line="9" selection-end-column="171" />
-              <folding>
-                <marker date="1493283227191" expanded="true" signature="327:489" ph="select id,wd... MACRO_ZB_TREE_XX" />
-                <marker date="1493283227191" expanded="true" signature="633:766" ph="select id,wd... MACRO_ZB_TREE_XX" />
-                <marker date="1493283227191" expanded="true" signature="633:775" ph="select id,wd... MACRO_ZB_TREE_XX" />
-                <marker date="1493283227191" expanded="true" signature="633:785" ph="select id,wd... MACRO_ZB_TREE_XX" />
-                <marker date="1493283227191" expanded="true" signature="935:1010" ph="select id,wd... MACRO_ZB_TREE_XX" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CKan.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/CKan.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
-              <folding>
-                <element signature="e#41#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reptile2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Reptile2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="36" />
-              <folding>
-                <marker date="1492482687394" expanded="true" signature="1211:1295" ph="INSERT INTO sys.ns_data... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQLTool.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MySQLTool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-              <folding>
-                <marker date="1493086546973" expanded="true" signature="748:840" ph="select * fro... MACRO_ZB_TREE_XX" />
-                <marker date="1493086546973" expanded="true" signature="748:842" ph="select * fro... MACRO_ZB_TREE_XX" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MakeCSV.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MakeCSV.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="14" column="90" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+            <state relative-caret-position="969">
+              <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -155,7 +112,32 @@
       <find>logging</find>
       <find>mem</find>
       <find>print</find>
+      <find>年</find>
+      <find>wd</find>
+      <find>saveMemo</find>
+      <find>memostr</find>
+      <find>saveTree</find>
+      <find>hgnd</find>
+      <find>re</find>
+      <find>r</find>
+      <find>brea</find>
+      <find>break</find>
+      <find>b</find>
+      <find>savememo</find>
+      <find>datas</find>
+      <find>1997</find>
+      <find>has</find>
+      <find>parseMemo</find>
+      <find>save</find>
+      <find>unit</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\work\PycharmProjects\untitled\com</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,17 +150,22 @@
         <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/measure.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/thefile.txt" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MakeCSV.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/http/client.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/CCan.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MySQLTool.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log.5" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/CKan.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/CrawlTask.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/a.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/memo_spider.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Memo.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MySQLTool.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/back/MeasureData.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" />
       </list>
     </option>
   </component>
@@ -189,11 +176,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -311,9 +298,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\PycharmProjects\untitled\com\inspur\reptile\statgovcn\back" />
       <recent name="D:\work\PycharmProjects\untitled\com\inspur\reptile\statgovcn" />
       <recent name="D:\work\PycharmProjects\untitled" />
     </key>
@@ -330,26 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CKan">
-    <configuration default="false" name="CKan" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/CKan.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.MeasureData">
     <configuration default="false" name="Master" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -421,6 +391,25 @@
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MeasureData (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/back" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/back/MeasureData.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -595,24 +584,27 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Reptile" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CKan" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Master" />
-      <item index="3" class="java.lang.String" itemvalue="Python.MeasureData" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Measure" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Master" />
+      <item index="2" class="java.lang.String" itemvalue="Python.MeasureData" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Measure" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.MeasureData (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.CKan" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Master" />
-        <item index="3" class="java.lang.String" itemvalue="Python.MeasureData" />
+        <item index="0" class="java.lang.String" itemvalue="Python.MeasureData" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Master" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.MeasureData (1)" />
         <item index="4" class="java.lang.String" itemvalue="Python.Measure" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -634,49 +626,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20131771" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35804418" sideWeight="0.50292826" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20605613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35703" sideWeight="0.50292826" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35804418" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31891027" sideWeight="0.49707174" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39810428" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35804418" sideWeight="0.50292826" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35804418" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20131771" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -686,7 +658,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -695,164 +667,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/DownZB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9785">
-          <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-            <marker date="1493176529083" expanded="true" signature="1767:1861" ph="insert into MACRO_ZB_TREE_XX... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DownZB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9785">
-          <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-            <marker date="1493176529083" expanded="true" signature="1767:1861" ph="insert into MACRO_ZB_TREE_XX... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="353" column="0" lean-forward="false" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DownZB" />
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn.py" />
-    <entry file="file://D:/tools/DispTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="46" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/enum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9785">
-          <caret line="518" column="0" lean-forward="false" selection-start-line="518" selection-start-column="0" selection-end-line="518" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DownZB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/csvtest.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -886,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="440" column="0" lean-forward="false" selection-start-line="440" selection-start-column="0" selection-end-line="440" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/A0506.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -934,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="36" />
-          <folding>
-            <marker date="1492482687394" expanded="true" signature="1211:1295" ph="INSERT INTO sys.ns_data... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,27 +760,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A0103.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="4196" column="75" lean-forward="false" selection-start-line="4196" selection-start-column="66" selection-end-line="4196" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A0103.csv" />
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log.1">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,15 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A0101.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,76 +779,149 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="11" column="21" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MakeCSV.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="266">
           <caret line="14" column="90" lean-forward="false" selection-start-line="14" selection-start-column="90" selection-end-line="14" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/CKan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="116" column="26" lean-forward="false" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pip/_vendor/requests/packages/urllib3/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1417">
+          <caret line="333" column="19" lean-forward="false" selection-start-line="333" selection-start-column="15" selection-end-line="333" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/CrawlTask.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="894" column="0" lean-forward="false" selection-start-line="894" selection-start-column="0" selection-end-line="894" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A0101.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/a.py" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Memo.py" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A010A.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A010B01.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/memo_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="258">
+          <caret line="42" column="36" lean-forward="false" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <marker date="1493800791558" expanded="true" signature="329:422" ph="select id,wd... MACRO_ZB_TREE_XX" />
+            <marker date="1493800791558" expanded="true" signature="329:446" ph="select id,wd... MACRO_ZB_TREE_XX" />
+            <marker date="1493800791558" expanded="true" signature="329:480" ph="select id,wd... MACRO_ZB_TREE_XX" />
+            <marker date="1493800791558" expanded="true" signature="556:689" ph="select id,wd... MACRO_ZB_TREE_XX" />
+            <marker date="1493800791558" expanded="true" signature="556:698" ph="select id,wd... MACRO_ZB_TREE_XX" />
+            <marker date="1493800791558" expanded="true" signature="556:708" ph="select id,wd... MACRO_ZB_TREE_XX" />
+            <marker date="1493800791558" expanded="true" signature="790:865" ph="select id,wd... MACRO_ZB_TREE_XX" />
+            <marker date="1493800791558" expanded="true" signature="946:1040" ph="insert into MACRO_ZB_TREE_XX... " />
+            <marker date="1493800791558" expanded="true" signature="1104:1145" ph="update macro... " />
+            <marker date="1493800791558" expanded="true" signature="1104:1157" ph="update macro... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MySQLTool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="31" column="25" lean-forward="false" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="114">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
           <folding>
-            <marker date="1493086546973" expanded="true" signature="748:840" ph="select * fro... MACRO_ZB_TREE_XX" />
-            <marker date="1493086546973" expanded="true" signature="748:842" ph="select * fro... MACRO_ZB_TREE_XX" />
+            <marker date="1493800824484" expanded="true" signature="750:842" ph="select * fro... MACRO_ZB_TREE_XX" />
+            <marker date="1493800824484" expanded="true" signature="750:844" ph="select * fro... MACRO_ZB_TREE_XX" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A020M09.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A130D.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A1301.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A1601.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A1902.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A1B01.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A1A01.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A10B0A.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-298120">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="4196" column="75" lean-forward="false" selection-start-line="4196" selection-start-column="66" selection-end-line="4196" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A010B0A.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/zb/A010101.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/test/1" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/testaa.csv" />
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1216">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="152">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/back/zb/A010101.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/back/MeasureData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-            <marker date="1493176529083" expanded="true" signature="1767:1861" ph="insert into MACRO_ZB_TREE_XX... " />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="57" column="59" lean-forward="false" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="171" lean-forward="false" selection-start-line="9" selection-start-column="171" selection-end-line="9" selection-end-column="171" />
+        <state relative-caret-position="440">
+          <caret line="186" column="0" lean-forward="true" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
           <folding>
-            <marker date="1493283227191" expanded="true" signature="327:489" ph="select id,wd... MACRO_ZB_TREE_XX" />
-            <marker date="1493283227191" expanded="true" signature="633:766" ph="select id,wd... MACRO_ZB_TREE_XX" />
-            <marker date="1493283227191" expanded="true" signature="633:775" ph="select id,wd... MACRO_ZB_TREE_XX" />
-            <marker date="1493283227191" expanded="true" signature="633:785" ph="select id,wd... MACRO_ZB_TREE_XX" />
-            <marker date="1493283227191" expanded="true" signature="935:1010" ph="select id,wd... MACRO_ZB_TREE_XX" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/CKan.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="116" column="26" lean-forward="true" selection-start-line="116" selection-start-column="26" selection-end-line="116" selection-end-column="26" />
-          <folding>
-            <element signature="e#41#56#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

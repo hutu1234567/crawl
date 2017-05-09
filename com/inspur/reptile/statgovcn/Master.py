@@ -25,7 +25,7 @@ def traceTree(curmeasure,tree,leafs,i):#遍历树结构
     else:
         print(i)
         print( tree[i]["id"])
-        current=Measure(tree[i]["id"], "hgnd", "zb",tree[i]["isParent"])
+        current=Measure(tree[i]["id"], curmeasure.dbcode, "zb",tree[i]["isParent"])
         traceTree(current,tree,leafs,i)
 def getChildMeasureList(curmeasure):#获得一个父节点下的子节点列表
     ajaxRequestBody={"id":curmeasure.id,"dbcode":curmeasure.dbcode,"wdcode":curmeasure.wdcode,"m":"getTree"}
@@ -47,20 +47,19 @@ def saveTree(tree):
     print( len( tree ) )
     print( "datas===" )
     print( datas )
-    conn = getcon( "10.10.10.32", "root", "123456", "macro", 3306 )
-    sql = "insert into MACRO_ZB_TREE_XX(id,wd_code,db_code,name,is_parent,pid) values (%s,%s,%s,%s,%s,%s)"
-    inserts( conn, sql, datas )
+    saveMeasure(datas)
 
-def crawl(measures,startYear,endYear):
+def crawl(measures,startdate,enddate=0):
     for i in range(len(measures)):
         zb= measures[i][0]
-        md = MeasureData( "hgnd", "sj", "zb", "[]",zb, startYear, endYear );
+        dbcode = measures[i][2]
+        md = MeasureData( dbcode, "sj", "zb", "[]",zb, startdate, enddate );
         ret = md.crawl()
-        saveData( "zb/", zb, ret )
+        saveData( "D:\\work\\crawl\\statsgovcn\\zb\\test\\", zb, ret )
 
-def getTree():
+def getTree():#把指标树爬下来
     sys.setrecursionlimit( 100000001 )
-    root = Measure( "", "hgnd", "zb", True )
+    root = Measure( "", "hgyd", "zb", True )#此处指明是取年度还是月度指标
     tree = []
     leafs = []
     traceTree( root, tree, leafs, -1 )
@@ -68,7 +67,6 @@ def getTree():
 
 
 if __name__ == '__main__':
-    measures=getAllTopMeasures()
+    measures=getAllLeafMeasures("hgyd")
     print(measures)
-    create_datasets(measures)
-    #crawl(measures,1960,2017)
+    crawl(measures,"190001-")

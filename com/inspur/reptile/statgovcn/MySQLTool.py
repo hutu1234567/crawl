@@ -4,12 +4,12 @@ def getcon(host,user,pw,db,port):
     conn.set_charset("utf8")
     return conn
 
-def insert(conn,sql,data):
+def execute(conn,sql,data):
     cursor=conn.cursor()
     cursor.execute(sql,data)
     conn.commit()
     cursor.close();
-def inserts(conn,sql,datas):
+def executes(conn,sql,datas):
     cursor = conn.cursor()
     cursor.executemany( sql, datas )
     conn.commit()
