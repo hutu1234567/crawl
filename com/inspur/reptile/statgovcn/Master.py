@@ -1,10 +1,7 @@
-from com.inspur.reptile.statgovcn.Measure import *
-from com.inspur.reptile.statgovcn.HttpTool import request_ajax_data
-from com.inspur.reptile.statgovcn.MySQLTool import *
-from com.inspur.reptile.statgovcn.MeasureData import *
-import json
 import sys
+
 from com.inspur.reptile.statgovcn.CKan import *
+from com.inspur.reptile.statgovcn.MeasureData import *
 
 url = 'http://data.stats.gov.cn/easyquery.htm?'#url常量，国家统计局的查询基本都通过此url
 #tree=[];

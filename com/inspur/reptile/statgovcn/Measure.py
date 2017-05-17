@@ -1,4 +1,4 @@
-from com.inspur.reptile.statgovcn.MySQLTool import *
+from com.inspur.reptile.tools.MySQLTool import *
 conn = getcon( "10.10.10.32", "root", "123456", "macro", 3306 )
 class Measure:
     def __init__(self,id,dbcode,wdcode,isParent):

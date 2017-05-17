@@ -1,12 +1,11 @@
-from __future__ import division #fruture
-from com.inspur.reptile.statgovcn.HttpTool import request_ajax_data
-from com.inspur.reptile.statgovcn.Measure import saveMemo
+from __future__ import division  # fruture
 
 import csv
-import logging
 import logging.handlers
-import codecs
-import datetime
+
+from com.inspur.reptile.statgovcn.Measure import saveMemo
+from com.inspur.reptile.tools.HttpTool import request_ajax_data
+
 #该类负责抓取具体指标数据
 LOG_FILE = 'tst.log'
 handler = logging.handlers.RotatingFileHandler( LOG_FILE, maxBytes=1024 * 1024*1024, backupCount=5 )  # 实例化handler
@@ -70,7 +69,7 @@ class MeasureData():
             ajaxRequestBody = {"m": m, "dbcode":self.dbcode , "rowcode":self.rowcode , "colcode":self.colcode , "wds":self.wds ,
                            "dfwds":dfwds}
             logger.debug( "start send request:"+self.zb )
-            content=request_ajax_data(url,ajaxRequestBody)
+            content=request_ajax_data(url,data=ajaxRequestBody)
             logger.debug( "end send request:"+self.zb )
             if(content["returncode"]==200):
                 #先解析出memo并保存
@@ -163,7 +162,6 @@ def parseMemo(content):
     print ("memostr====="+memostr)
     return memostr
 
-
 def saveData(folder,zb,data):
 
     print( data )
@@ -177,7 +175,7 @@ if __name__ == '__main__':
     zb="A010101"
     md=MeasureData("hgyd","sj","zb",[],zb,"1900-");
     ret=md.crawl()
-    saveData("D:\\work\\crawl\\statsgovcn\\zb\\test\\",zb,ret)
+    #saveData("D:\\work\\crawl\\statsgovcn\\zb\\test\\",zb,ret)
     #ajaxRequestBody = {"id":"zb","dbcode":"hgjd","wdcode":"zb","m":"getTree"}
     # ajaxRequestBody = {"m":"QueryData","dbcode":"hgnd","rowcode":"sj","colcode":"zb","wds":"[]","dfwds":"[{\"wdcode\":\"zb\",\"valuecode\":\"A0506\"},{\"wdcode\":\"sj\",\"valuecode\":\"1983\"}]"}
     # print ("[{\"wdcode\":\"zb\",\"valuecode\":\"A0506\"}]")
