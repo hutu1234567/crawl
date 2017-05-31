@@ -4,16 +4,22 @@ from com.inspur.reptile.skyeyes.task.Info import Info
 from com.inspur.reptile.skyeyes.domain.BidEntity import BidEntity
 
 contentUrl= "expanse/bid.json?id="
-
+ps = 1000
 class Bid(Info):
-    def __init__(self,comId):
-        url=super().getBaseUrl()+contentUrl+comId+"&pn=1&ps=100"#ps=1000 mean of pagezie,eg.how many item per page.
+    def __init__(self, comId, pn=1):
+        #url=super().getBaseUrl()+contentUrl+comId+"&pn=1&ps=100"#ps=1000 mean of pagezie,eg.how many item per page.
+        self.comid=comId
+        self.pn=pn
+        url="%s%s%s&pn=%s&ps=%s"%(super().getBaseUrl(), contentUrl, comId, pn, ps)
         super().__init__(url)
-
+    def run(self):
+        ret = self.crawl()
+        for data in (ret["data"]["items"]):
+            data["comid"] = self.comid
+            BidEntity( data ,self.taskid)
+        if (int( ret["data"]["viewtotal"] ) > self.pn * ps):
+            newpn=self.pn + 1
+            newbid=Bid(self.comid,newpn)
 if __name__ == '__main__':
-    comid="6923813"
-    ret=Bid(comid).crawl()
-    print(ret)
-    for data in (ret["data"]["items"]):
-        data["comid"]=comid
-        BidEntity(data).save()
+    comid = "14990231"
+    Bid(comid)

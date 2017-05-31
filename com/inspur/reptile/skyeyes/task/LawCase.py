@@ -3,13 +3,25 @@
 import urllib
 
 from com.inspur.reptile.skyeyes.task.Info import Info
+from com.inspur.reptile.skyeyes.domain.LawCaseEntity import LawCaseEntity
 
-
+ps = 1000
 class LawCase(Info):
-    def __init__(self,comName):
+    def __init__(self,comid,comName,pn=1 ):
         comName = urllib.parse.quote( comName )
-        url = "%sv2/getlawsuit/%s.json?page=1&ps=1000"%(super().getBaseUrl(),comName)
+        self.comName=comName
+        self.comid=comid
+        self.pn=pn
+        url = "%sv2/getlawsuit/%s.json?page=%s&ps=%s"%(super().getBaseUrl(),comName,pn,ps )
         super().__init__(url)
-
+    def run(self):
+        ret=self.crawl()
+        for data in (ret["data"]["items"]):
+            data["comid"]=self.comid
+            LawCaseEntity(data,self.taskid)
+        if (int( ret["data"]["total"] ) > self.pn * ps):
+            LawCase(self.comName,self.pn+1)
 if __name__ == '__main__':
-    LawCase("浪潮集团有限公司").crawl()
+    comid="1261378417"
+    comName="济南明鑫制药股份有限公司"
+    LawCase(comid,comName)

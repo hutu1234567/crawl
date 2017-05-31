@@ -23,7 +23,8 @@ class BidEntity(Entity):
          "COM_ID":'comid',
          "CONTEXT":'content'}
     tableName="CWL_BIDDING"
-    def __init__(self,dataStr={}):
-        DateTool.transDataFormat(dataStr,"createTime","%Y%m%d")
+    def __init__(self,dataStr={},resource=None):
+        dataStr['createTime']=DateTool.transDataFormat(dataStr['createTime'],"%Y%m%d")
         #dataStr["content"]=pymysql.escape_string(dataStr["content"])
         self.dataStr=dataStr
+        super().__init__(resource)

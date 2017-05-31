@@ -4,47 +4,58 @@
     <bookmark url="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py" line="13" mnemonic="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="80a8ef7f-9288-4b67-aaf3-ecbd0d971bc5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/Test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/DateTool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/AnualReportEntity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/BidEntity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ChangeInfo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CompetingGoods.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CopyRight.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Holder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Invest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/PatentInfo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ProductInfo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/RecruitmentInfo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SiteRecord.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SkeEyesTest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Staff.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TaxRatingInfo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TradeMark.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/tools/HttpTool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/tools/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py" afterPath="" />
+    <list default="true" id="80a8ef7f-9288-4b67-aaf3-ecbd0d971bc5" name="Default" comment="功能逻辑基本已经走通，数据解析后可插入数据库。">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/base/BaseTask.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/fixtures/companys.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/CompetingGoodsEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/CopyRightEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/HolderEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/InvestEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/LawCaseEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/PatentInfoEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ProductInfoEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/RecuitmentEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/SiteRecordEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/StaffEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/TaxRatingEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/TradeMarkEntity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/HumanSearch.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SkeEyesTest.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/Test.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/Test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/DateTool.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/DateTool.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/AnualReportEntity.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/AnualReportEntity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/BidEntity.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/BidEntity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/__init__.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ChangeInfo.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ChangeInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CompetingGoods.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CompetingGoods.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CopyRight.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CopyRight.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Holder.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Holder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Invest.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Invest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/PatentInfo.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/PatentInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ProductInfo.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ProductInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/RecruitmentInfo.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/RecruitmentInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SiteRecord.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SiteRecord.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Staff.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Staff.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TaxRatingInfo.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TaxRatingInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TradeMark.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TradeMark.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log" afterPath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/tst.log" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MySQLTool.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/tools/MySQLTool.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntify.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/base/Test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/inspur/reptile/tools/HttpTool.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/base/HttpTool.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/inspur/reptile/tools/MySQLTool.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/base/MySQLTool.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/com/inspur/reptile/tools/__init__.py" afterPath="$PROJECT_DIR$/com/inspur/reptile/base/__init__.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,47 +65,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled$Bid.coverage" NAME="Bid Coverage Results" MODIFIED="1494989633470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$Bid.coverage" NAME="Bid Coverage Results" MODIFIED="1495783253426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
     <SUITE FILE_PATH="coverage/untitled$Measure.coverage" NAME="Measure Coverage Results" MODIFIED="1493783171655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$MySQLTool.coverage" NAME="MySQLTool Coverage Results" MODIFIED="1494903874106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/tools" />
+    <SUITE FILE_PATH="coverage/untitled$MySQLTool.coverage" NAME="MySQLTool Coverage Results" MODIFIED="1495613112108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/base" />
     <SUITE FILE_PATH="coverage/untitled$CCan.coverage" NAME="CCan Coverage Results" MODIFIED="1492756726431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$Entity.coverage" NAME="Entity Coverage Results" MODIFIED="1495678685109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
     <SUITE FILE_PATH="coverage/untitled$Reptile.coverage" NAME="Reptile Coverage Results" MODIFIED="1492481518907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$MakeCSV.coverage" NAME="MakeCSV Coverage Results" MODIFIED="1492671449313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$CopyRight.coverage" NAME="CopyRight Coverage Results" MODIFIED="1494581004873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$RecruitmentInfo.coverage" NAME="RecruitmentInfo Coverage Results" MODIFIED="1494828860904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$MeasureData__1_.coverage" NAME="MeasureData (1) Coverage Results" MODIFIED="1493969989217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn/back" />
-    <SUITE FILE_PATH="coverage/untitled$AnnualReport__1_.coverage" NAME="AnnualReport (1) Coverage Results" MODIFIED="1494989201862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$DateTool.coverage" NAME="DateTool Coverage Results" MODIFIED="1495180464274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common" />
     <SUITE FILE_PATH="coverage/untitled$IntellectualPropertyInfo.coverage" NAME="IntellectualPropertyInfo Coverage Results" MODIFIED="1494581450580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$AnualReportEntity.coverage" NAME="AnualReportEntity Coverage Results" MODIFIED="1494925717509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
-    <SUITE FILE_PATH="coverage/untitled$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1494399900350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/aasdf" />
+    <SUITE FILE_PATH="coverage/untitled$AnualReportEntity.coverage" NAME="AnualReportEntity Coverage Results" MODIFIED="1495595400816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
     <SUITE FILE_PATH="coverage/untitled$ComBaseInfoBean.coverage" NAME="ComBaseInfoBean Coverage Results" MODIFIED="1494906814630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/databean" />
-    <SUITE FILE_PATH="coverage/untitled$TaxRatingInfo.coverage" NAME="TaxRatingInfo Coverage Results" MODIFIED="1494580957328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
+    <SUITE FILE_PATH="coverage/untitled$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1495592638379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/base" />
+    <SUITE FILE_PATH="coverage/untitled$TaxRatingInfo.coverage" NAME="TaxRatingInfo Coverage Results" MODIFIED="1495779787069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$ComBaseInfoEntity.coverage" NAME="ComBaseInfoEntity Coverage Results" MODIFIED="1495159826284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
+    <SUITE FILE_PATH="coverage/untitled$ComBaseInfo.coverage" NAME="ComBaseInfo Coverage Results" MODIFIED="1496198804404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$Holder.coverage" NAME="Holder Coverage Results" MODIFIED="1495768295992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$measure.coverage" NAME="measure Coverage Results" MODIFIED="1492495243237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$AnnualReport.coverage" NAME="AnnualReport Coverage Results" MODIFIED="1495779470823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$Master.coverage" NAME="Master Coverage Results" MODIFIED="1496198124232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$HttpTool.coverage" NAME="HttpTool Coverage Results" MODIFIED="1494918976154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/tools" />
+    <SUITE FILE_PATH="coverage/untitled$Patent.coverage" NAME="Patent Coverage Results" MODIFIED="1494382280198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
+    <SUITE FILE_PATH="coverage/untitled$CopyRightEntity.coverage" NAME="CopyRightEntity Coverage Results" MODIFIED="1495439946904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
+    <SUITE FILE_PATH="coverage/untitled$Staff.coverage" NAME="Staff Coverage Results" MODIFIED="1495779353116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$ChangeInfoEntify.coverage" NAME="ChangeInfoEntify Coverage Results" MODIFIED="1495157447672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
+    <SUITE FILE_PATH="coverage/untitled$StaffEntity.coverage" NAME="StaffEntity Coverage Results" MODIFIED="1495779759016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
+    <SUITE FILE_PATH="coverage/untitled$Admin.coverage" NAME="Admin Coverage Results" MODIFIED="1495505817743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
+    <SUITE FILE_PATH="coverage/untitled$CopyRight.coverage" NAME="CopyRight Coverage Results" MODIFIED="1495767716635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$RecruitmentInfo.coverage" NAME="RecruitmentInfo Coverage Results" MODIFIED="1495771191636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$MeasureData__1_.coverage" NAME="MeasureData (1) Coverage Results" MODIFIED="1493969989217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn/back" />
+    <SUITE FILE_PATH="coverage/untitled$AnnualReport__1_.coverage" NAME="AnnualReport (1) Coverage Results" MODIFIED="1495156217481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
     <SUITE FILE_PATH="coverage/untitled$Inverst.coverage" NAME="Inverst Coverage Results" MODIFIED="1494570651283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
     <SUITE FILE_PATH="coverage/untitled$SkeEyesTest.coverage" NAME="SkeEyesTest Coverage Results" MODIFIED="1494829204409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$PatentInfo.coverage" NAME="PatentInfo Coverage Results" MODIFIED="1494827447959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$ProductInfo.coverage" NAME="ProductInfo Coverage Results" MODIFIED="1494580963685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
+    <SUITE FILE_PATH="coverage/untitled$HumanSearch.coverage" NAME="HumanSearch Coverage Results" MODIFIED="1495849183036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$PatentInfo.coverage" NAME="PatentInfo Coverage Results" MODIFIED="1495865222135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$ProductInfo.coverage" NAME="ProductInfo Coverage Results" MODIFIED="1495770782847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
     <SUITE FILE_PATH="coverage/untitled$test.coverage" NAME="test Coverage Results" MODIFIED="1494920162400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$Test.coverage" NAME="Test Coverage Results" MODIFIED="1494920667739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile" />
-    <SUITE FILE_PATH="coverage/untitled$ComBaseInfo.coverage" NAME="ComBaseInfo Coverage Results" MODIFIED="1494989090342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
-    <SUITE FILE_PATH="coverage/untitled$Holder.coverage" NAME="Holder Coverage Results" MODIFIED="1494827319107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$ChangeInfo.coverage" NAME="ChangeInfo Coverage Results" MODIFIED="1494580828059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$measure.coverage" NAME="measure Coverage Results" MODIFIED="1492495243237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$Invest.coverage" NAME="Invest Coverage Results" MODIFIED="1494580820709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
+    <SUITE FILE_PATH="coverage/untitled$Test.coverage" NAME="Test Coverage Results" MODIFIED="1495865479502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/base" />
+    <SUITE FILE_PATH="coverage/untitled$ChangeInfo.coverage" NAME="ChangeInfo Coverage Results" MODIFIED="1496197614043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$Invest.coverage" NAME="Invest Coverage Results" MODIFIED="1495769058676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
     <SUITE FILE_PATH="coverage/untitled$LegalCase.coverage" NAME="LegalCase Coverage Results" MODIFIED="1494408176983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$Token.coverage" NAME="Token Coverage Results" MODIFIED="1494921462708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common" />
-    <SUITE FILE_PATH="coverage/untitled$AnnualReport.coverage" NAME="AnnualReport Coverage Results" MODIFIED="1494912792357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$Info.coverage" NAME="Info Coverage Results" MODIFIED="1494902691680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$CompetingGoods.coverage" NAME="CompetingGoods Coverage Results" MODIFIED="1494580838890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$Master.coverage" NAME="Master Coverage Results" MODIFIED="1494578452225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$MeasureData.coverage" NAME="MeasureData Coverage Results" MODIFIED="1494922983007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
+    <SUITE FILE_PATH="coverage/untitled$Token.coverage" NAME="Token Coverage Results" MODIFIED="1495159265967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common" />
+    <SUITE FILE_PATH="coverage/untitled$Unittests_for_com_inspur_reptile_base_Test_Test_a.coverage" NAME="Unittests for com.inspur.reptile.base.Test.Test.a Coverage Results" MODIFIED="1495592138596" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/untitled$Info.coverage" NAME="Info Coverage Results" MODIFIED="1495439997309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$CompetingGoods.coverage" NAME="CompetingGoods Coverage Results" MODIFIED="1495766177188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$MeasureData.coverage" NAME="MeasureData Coverage Results" MODIFIED="1495160244607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
     <SUITE FILE_PATH="coverage/untitled$CKan.coverage" NAME="CKan Coverage Results" MODIFIED="1493283280316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-    <SUITE FILE_PATH="coverage/untitled$HttpTool.coverage" NAME="HttpTool Coverage Results" MODIFIED="1494918976154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/tools" />
-    <SUITE FILE_PATH="coverage/untitled$TradeMark.coverage" NAME="TradeMark Coverage Results" MODIFIED="1494581531426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$Patent.coverage" NAME="Patent Coverage Results" MODIFIED="1494382280198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$LawCase.coverage" NAME="LawCase Coverage Results" MODIFIED="1494580858029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
+    <SUITE FILE_PATH="coverage/untitled$TradeMark.coverage" NAME="TradeMark Coverage Results" MODIFIED="1495780192805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+    <SUITE FILE_PATH="coverage/untitled$LawCase.coverage" NAME="LawCase Coverage Results" MODIFIED="1496209099270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
     <SUITE FILE_PATH="coverage/untitled$Test2.coverage" NAME="Test2 Coverage Results" MODIFIED="1494834970506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/databean" />
-    <SUITE FILE_PATH="coverage/untitled$Staff.coverage" NAME="Staff Coverage Results" MODIFIED="1494580761812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
-    <SUITE FILE_PATH="coverage/untitled$SiteRecord.coverage" NAME="SiteRecord Coverage Results" MODIFIED="1494581022172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes" />
+    <SUITE FILE_PATH="coverage/untitled$SiteRecord.coverage" NAME="SiteRecord Coverage Results" MODIFIED="1495779049127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -111,13 +131,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bid.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py">
+      <file leaf-file-name="LawCaseEntity.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/LawCaseEntity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="123">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LawCase.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Master.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="65" column="10" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
               <folding>
-                <element signature="e#73#126#0" expanded="true" />
+                <element signature="e#0#68#0" expanded="true" />
+                <marker date="1496210351167" expanded="true" signature="2566:2656" ph="select disti... cwl_invest" />
+                <marker date="1496210351167" expanded="true" signature="2624:2655" ph="select com_i... cwl_com_base" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComBaseInfoEntity.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComBaseInfo.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <element signature="e#59#119#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PatentInfo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/PatentInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecruitmentInfo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/RecruitmentInfo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="e#99#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,88 +212,20 @@
       <file leaf-file-name="ChangeInfo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ChangeInfo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="117">
+              <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChangeInfoEntify.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntify.py">
+      <file leaf-file-name="ChangeInfoEntity.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BidEntity.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/BidEntity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            <state relative-caret-position="257">
+              <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
               <folding>
-                <element signature="e#5803#5864#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Entity.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HttpTool.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/tools/HttpTool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnualReportEntity.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/AnualReportEntity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="e#1483#1533#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnnualReport.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#198#251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MySQLTool.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/inspur/reptile/tools/MySQLTool.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-              <folding>
-                <marker date="1494907175069" expanded="true" signature="1198:1290" ph="select id,id... MACRO_ZB_TREE_XX" />
+                <element signature="e#977#1036#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,36 +242,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>arr</find>
-      <find>PERIOD</find>
-      <find>period</find>
-      <find>from</find>
-      <find>urlopen</find>
-      <find>header</find>
-      <find>header,</find>
-      <find>request(self, re</find>
-      <find>request(self,</find>
-      <find>addheaders</find>
-      <find>headers</find>
-      <find>request</find>
-      <find>orgNumber</find>
-      <find>=</find>
-      <find>&quot;dataStr['</find>
-      <find>, ,</find>
-      <find>memost</find>
-      <find>牛</find>
-      <find>913701007874076393</find>
-      <find>id</find>
-      <find>context</find>
-      <find>u</find>
-      <find>uuid</find>
-      <find>api_headers</find>
-      <find>济南</find>
       <find>title</find>
       <find>柳州市国土资源局河东综合服务大楼会议室音视频系统设备采购、集成项目及项目监理服务中标公告</find>
       <find>insert</find>
+      <find>2016-01-18</find>
       <find>com</find>
+      <find>actualCapital</find>
+      <find>creditCode</find>
       <find>BidEntity</find>
+      <find>REGIST_CAPITAL</find>
+      <find>APPROVED_DATE</find>
+      <find>page</find>
+      <find>生活</find>
+      <find>urlPath</find>
+      <find>asdsadffadsadsfdasfdasf</find>
+      <find>ok</find>
+      <find>source</find>
+      <find>insertLog</find>
+      <find>memo</find>
+      <find>data</find>
+      <find>exception</find>
+      <find>con</find>
+      <find>values</find>
+      <find>wrong</find>
+      <find>setSource</find>
+      <find>tableName</find>
+      <find>seel</find>
+      <find>timeout</find>
+      <find>self</find>
+      <find>print</find>
+      <find>runTasksByCom</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -275,57 +293,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/IntellectualPropertyInfo.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Test.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/aasdf/__init__.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/aasdf/Test.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/__init__.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/LegalCase.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Master.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/企业年报.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/Test.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/ChangeInfo.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/RecruitmentInfo.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/TradeMark.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/111.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Inverst.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Invest.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/PatentInfo.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/TaxRatingInfo.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Holder.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/CompetingGoods.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/LawCase.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/ProductInfo.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/SiteRecord.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Staff.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Bid.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/CopyRight.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/AnnualReport.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/SkeEyesTest.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/databean/Test2.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Info.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/HttpTool.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/DataTool.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/databean/ComBaseInfoBean.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/ComBaseInfo.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/tools/MySQLTool.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/ghostdriver.log" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/Token.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/TradeMarkEntity.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/tools/HttpTool.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/DateTool.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py" />
-        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/Admin.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/Test.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/AnualReportEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/base/CrawlTask.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/BidEntity.py" />
         <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntify.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/CompetingGoodsEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/HolderEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/InvestEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/PatentInfoEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ProductInfoEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ProductInfo.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Holder.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CompetingGoods.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/RecuitmentEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/SiteRecordEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SiteRecord.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/StaffEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Staff.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/TaxRatingEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TaxRatingInfo.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CopyRight.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TradeMark.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/fixtures/companys.txt.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/fixtures/companys.txt" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/base/Scheduler.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/HumanSearch.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/base/MySQLTool.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/PatentInfo.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/base/Test.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/base/HttpTool.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/Token.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/base/BaseTask.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/RecruitmentInfo.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/CopyRightEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ChangeInfo.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/LawCaseEntity.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py" />
+        <option value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Invest.py" />
       </list>
     </option>
   </component>
@@ -336,9 +354,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -356,7 +375,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -420,32 +439,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="reptile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="inspur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reptile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,9 +584,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inspur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reptile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inspur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reptile" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -627,8 +672,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Bid">
-    <configuration default="false" name="AnnualReport (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.LawCase">
+    <configuration default="false" name="Master" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -641,7 +686,64 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/base/Test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LawCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChangeInfo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="untitled" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ChangeInfo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -661,63 +763,6 @@
       <module name="untitled" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="MeasureData" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/statgovcn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="AnualReportEntity" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/AnualReportEntity.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Bid" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="untitled" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -892,19 +937,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.Reptile" />
-      <item index="1" class="java.lang.String" itemvalue="Python.AnnualReport (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ComBaseInfo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.MeasureData" />
-      <item index="4" class="java.lang.String" itemvalue="Python.AnualReportEntity" />
-      <item index="5" class="java.lang.String" itemvalue="Python.Bid" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Master" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.LawCase" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ChangeInfo" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ComBaseInfo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Bid" />
-        <item index="1" class="java.lang.String" itemvalue="Python.AnnualReport (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ComBaseInfo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AnualReportEntity" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MeasureData" />
+        <item index="0" class="java.lang.String" itemvalue="Python.LawCase" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ComBaseInfo" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Master" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ChangeInfo" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -929,8 +974,20 @@
       <option name="project" value="LOCAL" />
       <updated>1494290696942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="功能逻辑基本已经走通，数据解析后可插入数据库。">
+      <created>1494989752655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494989752655</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_com_inspur_reptile_base_Test_Test_a - 2017.05.24 at 10h 15m 39s.xml">
+      <configuration name="Unittests for com.inspur.reptile.base.Test.Test.a" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,20 +999,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64903843" sideWeight="0.51468426" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.51468426" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42948717" sideWeight="0.4853157" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3491311" sideWeight="0.4853157" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3215859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2057101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.4941263" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32543445" sideWeight="0.4941263" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32385466" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3974359" sideWeight="0.49706313" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3965245" sideWeight="0.49706313" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -963,28 +1021,27 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.64903843" sideWeight="0.51468426" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.51468426" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42948717" sideWeight="0.4853157" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35416666" sideWeight="0.4853157" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2041116" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20753324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.4941263" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32543445" sideWeight="0.4941263" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32385466" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3974359" sideWeight="0.49706313" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3965245" sideWeight="0.49706313" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -996,23 +1053,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="month done." />
-    <option name="LAST_COMMIT_MESSAGE" value="month done." />
+    <MESSAGE value="功能逻辑基本已经走通，数据解析后可插入数据库。" />
+    <option name="LAST_COMMIT_MESSAGE" value="功能逻辑基本已经走通，数据解析后可插入数据库。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/com/inspur/reptile/tools/HttpTool.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -1022,420 +1068,437 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/111.py" />
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/LegalCase.py" />
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/IntellectualPropertyInfo.py" />
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SiteRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/selenium/webdriver/common/service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="989" column="0" lean-forward="false" selection-start-line="989" selection-start-column="0" selection-end-line="989" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pip/_vendor/requests/packages/urllib3/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/urllib/request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="251" column="60" lean-forward="false" selection-start-line="251" selection-start-column="53" selection-end-line="251" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/twisted/web/_newclient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="1440" column="0" lean-forward="true" selection-start-line="1440" selection-start-column="0" selection-end-line="1440" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymysql/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="169" column="8" lean-forward="false" selection-start-line="169" selection-start-column="8" selection-end-line="169" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.1/system/python_stubs/-1469889003/lxml/etree/XSLTExtension.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymysql/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MakeCSV.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/memo_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1493777537354" expanded="true" signature="269:362" ph="select id fr... MACRO_ZB_TREE_XX" />
-            <marker date="1493777537354" expanded="true" signature="1554:1636" ph="update macro... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Measure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <marker date="1494902896615" expanded="true" signature="325:476" ph="select id,wd... MACRO_ZB_TREE_XX" />
-            <marker date="1494902896615" expanded="true" signature="552:704" ph="select id,wd... MACRO_ZB_TREE_XX" />
-            <marker date="1494902896615" expanded="true" signature="786:861" ph="select id,wd... MACRO_ZB_TREE_XX" />
-            <marker date="1494902896615" expanded="true" signature="942:1036" ph="insert into MACRO_ZB_TREE_XX... " />
-            <marker date="1494902896615" expanded="true" signature="1100:1153" ph="update macro... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/ghostdriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2919">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/json/decoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1133">
-          <caret line="356" column="0" lean-forward="false" selection-start-line="356" selection-start-column="0" selection-end-line="356" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Staff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TaxRatingInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TradeMark.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SkeEyesTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-214">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/PatentInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CompetingGoods.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CopyRight.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Holder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Invest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ProductInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="11" selection-end-column="34" />
+        <state relative-caret-position="437">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/Test.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TaxRatingInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="266">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/RecruitmentInfo.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/TradeMark.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="76">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/fixtures/companys.txt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        <state relative-caret-position="76">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/base/Scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/Master.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#75#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/Token.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/fixtures/companys.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#186#241#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/requests/sessions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="462" column="0" lean-forward="false" selection-start-line="462" selection-start-column="0" selection-end-line="462" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/statgovcn/MeasureData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="163" column="0" lean-forward="true" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/tools/HttpTool.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="114" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/tools/MySQLTool.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/HumanSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="-102">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1494907175069" expanded="true" signature="1198:1290" ph="select id,id... MACRO_ZB_TREE_XX" />
+            <element signature="e#167#227#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#35#109#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymysql/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="392" column="0" lean-forward="false" selection-start-line="392" selection-start-column="0" selection-end-line="392" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Staff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/base/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/pymysql/err.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="107" column="0" lean-forward="true" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/base/HttpTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/base/MySQLTool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="49" column="9" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <marker date="1495864757549" expanded="true" signature="1316:1347" ph="update js_cr... " />
+            <marker date="1495864757549" expanded="true" signature="1316:1371" ph="update js_cr... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/DateTool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/common/Token.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding>
-            <element signature="e#2354#2415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
-          <folding>
-            <element signature="e#59#119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state relative-caret-position="108">
+          <caret line="63" column="15" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/AnualReportEntity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#1483#1533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#198#251#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="39">
+          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/BidEntity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-          <folding>
-            <element signature="e#5803#5864#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="178">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/HolderEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/InvestEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/PatentInfoEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ProductInfoEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/StaffEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/TaxRatingEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/TradeMarkEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/AnnualReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Bid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="19">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CompetingGoods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/CopyRight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Holder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/Entity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/base/BaseTask.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
           <folding>
-            <element signature="e#73#126#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1496193758174" expanded="true" signature="1657:1737" ph="update js_cr... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/CompetingGoodsEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="40" column="88" lean-forward="true" selection-start-line="40" selection-start-column="88" selection-end-line="40" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/SiteRecordEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="39" column="71" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/SiteRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/RecuitmentEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/CopyRightEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/RecruitmentInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#99#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding>
+            <element signature="e#977#1036#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ChangeInfo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="117">
+          <caret line="23" column="49" lean-forward="true" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ChangeInfoEntify.py">
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/ComBaseInfoEntity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="467">
+          <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/PatentInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/domain/LawCaseEntity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/LawCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Master.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="65" column="10" lean-forward="false" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+            <marker date="1496210351167" expanded="true" signature="2566:2656" ph="select disti... cwl_invest" />
+            <marker date="1496210351167" expanded="true" signature="2624:2655" ph="select com_i... cwl_com_base" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/Invest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#76#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/inspur/reptile/skyeyes/task/ComBaseInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <element signature="e#59#119#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

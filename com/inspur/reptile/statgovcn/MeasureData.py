@@ -4,7 +4,7 @@ import csv
 import logging.handlers
 
 from com.inspur.reptile.statgovcn.Measure import saveMemo
-from com.inspur.reptile.tools.HttpTool import request_ajax_data
+from com.inspur.reptile.base.HttpTool import request_ajax_data
 
 #该类负责抓取具体指标数据
 LOG_FILE = 'tst.log'

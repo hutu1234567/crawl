@@ -14,13 +14,18 @@
 # 						<column id="CONTEXT" type="TEXT" name="年报内容" />
 # 						<column	id="COM_ID"   required="true" type="varchar(30)"  name="所属企业ID"/>
 # 					</table>
-import com.inspur.reptile.tools.MySQLTool as mysql
+import com.inspur.reptile.base.MySQLTool as mysql
 from com.inspur.reptile.skyeyes.domain.Entity import Entity
 class AnualReportEntity(Entity):
-    def __init__(self,dataStr={}):
+    def __init__(self,dataStr={},taskid=None):
         self.dataStr=dataStr
+        super(AnualReportEntity, self).__init__(taskid)
 class AnualReportDetailEntity(Entity):
     tableName="CWL_ANNUAL_REPORT"
     map={"ID":'uuid',"Name":'name',"YEAR":'reportYear',"URL":'url',"CONTEXT":'context',"COM_ID":'comid'}
-    def __init__(self,dataStr={}):
+    def __init__(self,dataStr={},resource=None):
         self.dataStr=dataStr
+        self.dataStr["uuid"]=Entity.createUUID()
+        super().__init__(resource)
+
+

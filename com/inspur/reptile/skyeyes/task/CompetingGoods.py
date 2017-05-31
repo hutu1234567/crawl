@@ -3,13 +3,25 @@
 import urllib
 
 from com.inspur.reptile.skyeyes.task.Info import Info
+from com.inspur.reptile.skyeyes.domain.CompetingGoodsEntity import CompetingGoodsEntity
 
-
+ps = 1000
 class CompetingGoods(Info):
-    def __init__(self,comName):
-        comName = urllib.parse.quote( comName )
-        url = "%sexpanse/findJingpin.json?name=%s&ps=1000&pn=1"%(super().getBaseUrl(),comName)
-        super().__init__(url)
+    def __init__(self, comid,comName, pn=1):
+        self.comid=comid
+        self.comName = comName
+        self.pn=pn
+        comNameDecode = urllib.parse.quote( comName )
 
+        url = "%sexpanse/findJingpin.json?name=%s&pn=%s&ps=%s"%(super().getBaseUrl(), comNameDecode, pn, ps)
+        super().__init__(url)
+    def run(self):
+        ret =self.crawl()
+        for data in (ret["data"]["page"]["rows"]):
+            data["comid"]=self.comid
+            CompetingGoodsEntity( data,self.taskid )
+        if (int( ret["data"]["page"]["total"] ) > self.pn * ps):
+            CompetingGoods(self.comid, self.comName,self.pn+1 )
 if __name__ == '__main__':
-    CompetingGoods("浪潮集团有限公司").crawl()
+    comid="1499023"
+    CompetingGoods(comid, "中国石油化工股份有限公司" )

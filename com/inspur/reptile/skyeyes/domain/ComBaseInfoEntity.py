@@ -28,19 +28,27 @@
 # 在本类中定义数据集与数据库的对应，并完成对特定属性的处理
 
 import com.inspur.reptile.skyeyes.common.DateTool as DateTool
-import com.inspur.reptile.tools.MySQLTool as mysql
 from com.inspur.reptile.skyeyes.domain.Entity import Entity
 class ComBaseInfoEntity(Entity):
     tableName="CWL_COM_BASE"
-    map={"COM_ID":'id',"DAS_COM_ID":'regNumber',"COM_NAME":'name',"LEGAL_REPRESENT":'legalPersonName',"REGIST_CAPITAL":'actualCapital',
+    map={"COM_ID":'id',"DAS_COM_ID":'regNumber',"COM_NAME":'name',"LEGAL_REPRESENT":'legalPersonName',"REGIST_CAPITAL":'regCapital',
          "REGIST_DATE":'estiblishTime',"STATUS":'regStatus',"REGIST_CODE":'regNumber',"ORGAN_CODE":'orgNumber',"CREDIT_CODE":'creditCode',
          "COM_TYPE":'companyOrgType',"IND_TYPE":'industry',"BUSINESS_BEGIN":'fromTime',"BUSINESS_END":'toTime',"APPROVED_DATE":'approvedTime',
          "REGIST_ORGAN":'regInstitute',"ADDR":'regLocation',"BUSINESS_SCOPE":'businessScope'}
-    def __init__(self,dataStr={}):
-        DateTool.transDataFormat(dataStr,"fromTime","%Y%m%d")
-        DateTool.transDataFormat(dataStr,"toTime","%Y%m%d")
-        self.dataStr=dataStr
+    def __init__(self,dataStr={},source=None):
+        # DateTool.transDataFormat(dataStr,"fromTime","%Y%m%d")
+        # DateTool.transDataFormat(dataStr,"toTime","%Y%m%d")
+        if("fromTime" in dataStr.keys()):
+            dataStr['fromTime']=DateTool.transDataFormat(dataStr['fromTime'],"%Y%m%d")
+        if ("toTime" in dataStr.keys()):
+            dataStr['toTime']=DateTool.transDataFormat(dataStr['toTime'],"%Y%m%d")
+        if ("estiblishTime" in dataStr.keys()):
+            dataStr['estiblishTime'] = DateTool.transDataFormat( dataStr['estiblishTime'], "%Y%m%d" )
+        if ("approvedTime" in dataStr.keys()):
+            dataStr['approvedTime'] = DateTool.transDataFormat( dataStr['approvedTime'], "%Y%m%d" )
 
+        self.dataStr=dataStr
+        super().__init__(source)
 if __name__ == '__main__':
         #dt = datetime.fromtimestamp( 2867155200000 /1000)
         #lll = dt.strftime("%Y%m%d")
@@ -52,4 +60,4 @@ if __name__ == '__main__':
         datastr={"fromTime":2867155200000,"toTime":1867155200000,"id":"2344338651"}
         com = ComBaseInfoEntity( datastr )
 
-        print(com.map)
+        #print(com.map)

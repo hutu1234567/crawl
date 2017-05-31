@@ -1,4 +1,4 @@
-from com.inspur.reptile.tools.MySQLTool import *
+from com.inspur.reptile.base.MySQLTool import *
 conn = getcon( "10.10.10.32", "root", "123456", "macro", 3306 )
 class Measure:
     def __init__(self,id,dbcode,wdcode,isParent):
@@ -23,6 +23,6 @@ def saveMeasure(datas):
     executes( conn, sql, datas )
 def saveMemo(data):
     sql="update macro.MACRO_ZB_TREE_XX set memo=%s where id=%s"
-    execute(conn,sql,data)
+    execute( conn, sql, data )
 if __name__ == '__main__':
     print( getAllTopMeasures())
