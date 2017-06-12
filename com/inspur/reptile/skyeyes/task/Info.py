@@ -2,6 +2,8 @@
 from com.inspur.reptile.base.HttpTool import request as requestWithoutJson
 from com.inspur.reptile.base.HttpTool import request_ajax_data as request
 from com.inspur.reptile.base.BaseTask import BaseTask
+from com.inspur.reptile.base.CustomException import NotFoundDataException
+
 urlDemo="http://www.tianyancha.com/expanse/patent.json?id=2344338651&pn=1&ps=1000"
 baseUrl="http://www.tianyancha.com/"
 class Info( BaseTask ):
@@ -31,7 +33,7 @@ class Info( BaseTask ):
         #print("bbbbbbb"*8,hasattr(ret,"state"))
         if (ret["state"] != "ok"):#如果状态码不是ok，则表示未查询到数据
             self.content = str( ret )
-            raise Exception("未查询到数据")
+            raise NotFoundDataException("未查询到数据")
         return ret
 
 if __name__ == '__main__':

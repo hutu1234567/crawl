@@ -10,6 +10,5 @@ namespace = "test_namespace"
 # print(uuid.uuid5( namespace, name ))
 
 if __name__ == '__main__':
-    t=time.strftime('%Y%m%d%H%M%S',time.localtime(time.time()))
-
-    print (t)
+    a={'content': '<em>章丘市明水丰年有限责任公司</em>', 'field': '历史名称'}
+    print("")

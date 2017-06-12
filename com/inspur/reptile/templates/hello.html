@@ -1,0 +1,15 @@
+
+<h1>{{ hello }}</h1>
+{% ifequal hello "Hello Guest!"   %}
+    <h2>asdfadsf</h2>
+{% endifequal %}
+{% if name %}
+    <h2>welcome!!!!{{ name }}</h2>
+{% endif %}
+<h3>your grade is</h3>
+{% for foo in grade reversed %}
+    <li>{{ foo }}</li>
+{% endfor %}
+{% include "bottom.html" %}
+{% block bottomblock  %}<p>copyright xiaxue</p>
+{% endblock %}

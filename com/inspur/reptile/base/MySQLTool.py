@@ -35,8 +35,10 @@ def executes(conn,sql,datas):
 def query(conn,sql):
     cursor = conn.cursor()
     ret=cursor.execute( sql )
-    list=[]
-    list=cursor.fetchmany(ret)
+    #list=[]
+    #list=cursor.fetchmany(ret)
+    list=cursor.fetchall()
+
     #print(cursor.fetchone())
 
     #for i in range (ret):

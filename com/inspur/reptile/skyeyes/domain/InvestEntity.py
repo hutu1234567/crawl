@@ -40,3 +40,4 @@ class InvestEntity(Entity):
 
         self.dataStr=dataStr
         super().__init__(source)
+
