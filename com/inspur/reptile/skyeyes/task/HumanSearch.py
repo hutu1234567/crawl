@@ -15,7 +15,7 @@ class HumanSearch(Info):
         self.comName=comName
         url= super().getBaseUrl() + contentUrl + comNameDecode + ".json"
         super().__init__(url)
-    # def crawl(self):
+    # def icrawl(self):
     #     ret = request(self.url)
     #     print(ret)
 

@@ -14,7 +14,7 @@ class TradeMark(Info):
         self.pn=pn
         url="%s%s%s&pageNum=%s&ps=%s"%(super().getBaseUrl(), contentUrl, comId, pn, ps)
         super().__init__(url)
-    # def crawl(self):
+    # def icrawl(self):
     #     ret = request(self.url)
     #     print(ret)
     def run(self):

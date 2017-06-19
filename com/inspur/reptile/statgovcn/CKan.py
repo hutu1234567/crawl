@@ -12,7 +12,7 @@ OwnerOrg = 'statsgovcn'
 PackageName = 'test'
 PackageName='inspur'
 PackageTitle = 'test'
-datasetlocal="D:\\work\\crawl\\statsgovcn\\zb\\"
+datasetlocal="D:\\work\\icrawl\\statsgovcn\\zb\\"
 def create_datasets(datasets):
     for i in range(len(datasets)):
         dataset = datasets[i]

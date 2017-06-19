@@ -175,7 +175,7 @@ if __name__ == '__main__':
     zb="A010101"
     md=MeasureData("hgyd","sj","zb",[],zb,"1900-");
     ret=md.crawl()
-    #saveData("D:\\work\\crawl\\statsgovcn\\zb\\test\\",zb,ret)
+    #saveData("D:\\work\\icrawl\\statsgovcn\\zb\\test\\",zb,ret)
     #ajaxRequestBody = {"id":"zb","dbcode":"hgjd","wdcode":"zb","m":"getTree"}
     # ajaxRequestBody = {"m":"QueryData","dbcode":"hgnd","rowcode":"sj","colcode":"zb","wds":"[]","dfwds":"[{\"wdcode\":\"zb\",\"valuecode\":\"A0506\"},{\"wdcode\":\"sj\",\"valuecode\":\"1983\"}]"}
     # print ("[{\"wdcode\":\"zb\",\"valuecode\":\"A0506\"}]")

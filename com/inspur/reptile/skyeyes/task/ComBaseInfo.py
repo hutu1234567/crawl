@@ -9,7 +9,7 @@ class ComBaseInfo(Info):
     def __init__(self,comId):
         url= super().getBaseUrl() + contentUrl + comId + ".json"
         super().__init__(url)
-    # def crawl(self):
+    # def icrawl(self):
     #     ret = request(self.url)
     #     print(ret)
 

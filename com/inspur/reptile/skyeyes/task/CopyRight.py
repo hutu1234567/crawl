@@ -12,7 +12,7 @@ class CopyRight(Info):
         self.comid=comId
         self.pn=pn
         super().__init__(url)
-    # def crawl(self):
+    # def icrawl(self):
     #     ret = request(self.url)
     #     print(ret)
 

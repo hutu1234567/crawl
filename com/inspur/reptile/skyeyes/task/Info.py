@@ -11,7 +11,7 @@ class Info( BaseTask ):
         #params为http请求所可能需要的报头参数
         self.params=params
         self.url=url
-        self.action="crawl"
+        self.action="icrawl"
         self.seelptime = 10  # 抓取任务设置延时，避免被屏蔽
         self.task_flag=self.__class__.__name__
         super().__init__(url)

@@ -52,7 +52,7 @@ def crawl(measures,startdate,enddate=0):
         dbcode = measures[i][2]
         md = MeasureData( dbcode, "sj", "zb", "[]",zb, startdate, enddate );
         ret = md.crawl()
-        saveData( "D:\\work\\crawl\\statsgovcn\\zb\\test\\", zb, ret )
+        saveData( "D:\\work\\icrawl\\statsgovcn\\zb\\test\\", zb, ret )
 
 def getTree():#把指标树爬下来
     sys.setrecursionlimit( 100000001 )
